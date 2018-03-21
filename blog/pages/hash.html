@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Blog Home - Start Bootstrap Template</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="../css/blog-home.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="page-container">
+            <header id="page-header">
+                <!-- Navigation -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">Start Bootstrap</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header><!--/ #page-header -->
+
+            <section id="page-content" class="container">
+                <div class="row">
+                    <section id="main" class="col-md-8">
+                        <div class="card mb-4 mt-4">
+                            <div class="card-body">
+                                <h1 class="card-title">Encrypt</h1>
+                                <p class="card-text">Encrypt a string. The result below will be a Bcrypt encrypted hash.</p>
+                                <form class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="String to encrypt..." aria-label="String to encrypt..." aria-describedby="basic-addon2" />
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="submit">Hash!</button>
+                                    </div>
+                                </form>
+                                <h4>Hash Generated</h4>
+                                <div id="message-holder">
+                                    <div class="alert alert-success" role="alert">
+                                        Hash generated string
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h1 class="card-title">Decrypt</h1>
+                                    <p class="card-text">Test your password hash against a plaintext password, to see if they match.</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hash to check..." />
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="String to check against..." aria-label="String to check against..." aria-describedby="basic-addon2" />
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="submit">Check!</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="alert alert-success" role="alert">
+                                        Good hash! :)
+                                    </div>
+                                    <div class="alert alert-danger" role="alert" >
+                                        Bad hash! :)
+                                    </div>
+                                </div>
+                            </div>
+                    </section><!--/ #main -->
+
+                    <aside id="page-aside" class="col-md-4">
+                        <!-- Search Widget -->
+                        <div class="card my-4">
+                            <h5 class="card-header">Search</h5>
+                            <div class="card-body">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                                              <button class="btn btn-secondary" type="button">Go!</button>
+                                                            </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Categories Widget -->
+                        <div class="card my-4">
+                            <h5 class="card-header">Categories</h5>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <a href="#">Web Design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">HTML</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Freebies</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <a href="#">JavaScript</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">CSS</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tutorials</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Side Widget -->
+                        <div class="card my-4">
+                            <h5 class="card-header">Side Widget</h5>
+                            <div class="card-body">
+                                You can put anything you want inside of these side widgets. They are easy to use, and feature
+                                the new Bootstrap 4 card containers!
+                            </div>
+                        </div>
+                    </aside><!--/ #page-aside -->
+                </div>
+            </section><!--/ #page-content -->
+
+            <footer id="page-footer" class="py-5 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+                </div>
+            </footer><!--/ #page-footer -->
+        </div><!--/ #page-container -->
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
