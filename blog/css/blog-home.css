@@ -13,3 +13,35 @@ body {
     padding-top: 56px;
   }
 }
+
+.article {
+  color: #616161;
+}
+.article-title {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+.article-timestamp, .article-author, .article-comment {
+  display:inline-block;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: #F0F0F0;
+  font-size: 0.9rem;
+}
+.article-link {
+  font-size: 0.9rem;
+  padding: 0 1rem;
+}
+.article-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .article .card-body {
+    padding-left: 0px;
+  }
+  .article div.col-lg-8 {
+    padding-left: 0px;
+  }
+}
